@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h3>Đăng kí tài khoản</h3>
+        <div>
+            <label name="userName" for=userName">Họ và tên</label>
+            <input name="userName" id="userName" type="text">
+        </div>
+        <br>
+        <div>
+            <label name="dateOfBirth" for="dateOfBirth">Ngày sinh</label>
+            <input name="dateOfBirth" id="dateOfBirth" type="date">
+
+            
+        </div>
+        <br>
+        <div>
+            <label for="gender">Giới tính</label>
+            <input checked name="gender" type="radio"> Nam
+            <input name="gender" type="radio"> Nữ
+            <input name="gender" type="radio"> Khác
+            
+        </div>
+        <div>
+            <label name="address" for="address">Quê quán</label>
+            <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Làm mới"/>
+            <input type="submit" value="Đăng kí" />
+            <input type="button" value="Hủy">
+            <!-- Input dùng reset các giá trị form -->
+        </div>
+    </form>
+</body>
+</html>
